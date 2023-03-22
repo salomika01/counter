@@ -1,0 +1,110 @@
+@import "~bootstrap/scss/bootstrap";
+@import './styles/color.scss';
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: $color1;
+  min-height: 50px;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.Counter {
+  background-color: bisque;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: 3px solid black;
+  border-radius: 6px;
+}
+.checkedItem {
+  text-decoration: line-through;
+}
+
+.App-header nav{
+  width: 90%;
+
+}
+
+.lngDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.lngDiv button {
+  height: fit-content;
+}
+
+.activeNav{
+  text-decoration: line-through;
+}
+
+.navLink{
+  gap: 20px;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+ 
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+.navLink li a{
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.navLink li:hover a{
+  color: red;
+ 
+}
+
+.grid{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr  ;
+  gap: 10px;
+}
+
+.productCard{
+  border: 1px solid black;
+  background-color: rgb(255, 171, 234);
+  border-radius: 6px;
+  padding: 10px ;
+  
+}
+
+.productCard img {
+  object-fit: cover;
+  height: 100px;
+ width: 100%;
+
+}
+
+.productImageCover{
+  width: 100%;
+}
+
+
+.navlinks{
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.dropmn{
+  list-style: none;
+  width: 50px;
+  
+
+}
+

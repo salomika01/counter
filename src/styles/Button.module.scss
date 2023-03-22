@@ -1,0 +1,13 @@
+@import '../styles/mixins.scss';
+
+.btn {
+    @include button;
+}
+
+.alert {
+    @include button($bgColor:red)
+}
+  
+.warning {
+    @include button($bgColor:yellow, $color: black)
+}
